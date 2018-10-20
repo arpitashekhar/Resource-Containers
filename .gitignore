@@ -1,0 +1,14 @@
+# File type
+*.cmd
+*.o
+*.ko
+
+# Specific files
+kernel_module/.tmp_versions/
+kernel_module/Module.symvers
+kernel_module/modules.order
+kernel_module/processor_container.mod.c
+library/libpcontainer.so.1.0
+benchmark/benchmark
+grade/benchmark
+.vscode
